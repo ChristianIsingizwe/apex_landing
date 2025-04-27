@@ -1,9 +1,8 @@
-"use client"
+
 
 import Image from "next/image"
 
 export default function PartnersMarquee() {
-  // Logos data
   const logos = [
     { name: "Company 1", logo: "/placeholder.svg?height=40&width=120" },
     { name: "Company 2", logo: "/placeholder.svg?height=40&width=120" },

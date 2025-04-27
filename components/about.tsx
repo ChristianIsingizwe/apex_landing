@@ -7,7 +7,7 @@ export default function About() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
           <div className="space-y-6">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Us</div>
+            {/* <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Us</div> */}
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">A Remote Team with Global Impact</h2>
             <p className="text-muted-foreground md:text-lg/relaxed">
               Founded in Rwanda, our team of passionate software engineers is dedicated to delivering exceptional
