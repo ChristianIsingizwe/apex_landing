@@ -5,13 +5,13 @@ import Link from "next/link"
 export default function Hero() {
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
+      {/* Grid background */}
+      <div className="absolute inset-0 -z-20 bg-grid" />
+
       {/* Gradient background */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 -z-10 bg-grid">
         <div className="absolute -left-[10%] -top-[10%] h-[500px] w-[500px] rounded-full bg-gradient-to-r from-purple-500/20 to-cyan-500/20 blur-3xl" />
         <div className="absolute -right-[10%] bottom-[10%] h-[500px] w-[500px] rounded-full bg-gradient-to-r from-cyan-500/20 to-purple-500/20 blur-3xl" />
-        
-        {/* Grid background */}
-        <div className="absolute inset-0 bg-grid-small-black/[0.08] dark:bg-grid-small-white/[0.04]" />
       </div>
 
       <div className="container px-4 md:px-6">
